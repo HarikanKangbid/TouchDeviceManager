@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f4ygGJ8VZWGwwtBHOsKqhqxvgJU=
+		lsupqn+wVwJ1K4Lgi1i4s8Ag9rk=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RUgjZD54EgriKhTEr3lZmDctiIw=
+		TLwf9JowtlCn3RLMIj22iyrJ5x0=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		RUgjZD54EgriKhTEr3lZmDctiIw=
+		TLwf9JowtlCn3RLMIj22iyrJ5x0=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		43YaCOjmvU8BwgSY7lUOyFb6e+k=
+		W3mhdCSp9ozFs0CA/J3SM0DwIKE=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		43YaCOjmvU8BwgSY7lUOyFb6e+k=
+		W3mhdCSp9ozFs0CA/J3SM0DwIKE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fSJ1aOVLZVa7Ms/NpTR3k3SLx9bMJYRL2EHcwab4VqA=
+			Nuuftnh6beI88cnAf7l8GxmPHlw5EvNy+r4Kill69nY=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftdoc</key>
@@ -124,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fSJ1aOVLZVa7Ms/NpTR3k3SLx9bMJYRL2EHcwab4VqA=
+			Nuuftnh6beI88cnAf7l8GxmPHlw5EvNy+r4Kill69nY=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -145,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AT2h91VuoKQiZSqgRinxfvFRmJP7Xh/xlwPaKM2L8IE=
+			kcwtfqzn33iSnfbrfmG1uB0o8nOh4MskMeRL9eiYe+w=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftdoc</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AT2h91VuoKQiZSqgRinxfvFRmJP7Xh/xlwPaKM2L8IE=
+			kcwtfqzn33iSnfbrfmG1uB0o8nOh4MskMeRL9eiYe+w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

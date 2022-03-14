@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     s.name             = 'TouchDeviceManager'
     s.version          = '0.0.6'
-    s.summary           = 'help to connect health check touch technologies device.'
+    s.summary           = 'touch technologies device.'
     s.description      = <<-DESC
 help to connect health check touch technologies device.
                        DESC

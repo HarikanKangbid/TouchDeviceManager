@@ -1,0 +1,11 @@
+framework module TouchDeviceManager {
+  umbrella header "TouchDeviceManager.h"
+
+  export *
+  module * { export * }
+}
+
+module TouchDeviceManager.Swift {
+    header "TouchDeviceManager-Swift.h"
+    requires objc
+}

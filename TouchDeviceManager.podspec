@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TouchDeviceManager'
-    s.version          = '0.0.6'
+    s.version          = '0.0.7'
     s.summary           = 'touch technologies device.'
     s.description      = <<-DESC
 help to connect health check touch technologies device.
@@ -17,9 +17,9 @@ help to connect health check touch technologies device.
     s.homepage          = 'https://github.com/HarikanKangbid/TouchDeviceManager'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author            = { "Harikan Kangbid" => "MIN.DO@hotmail.com" }
-    s.source            = { :git => "https://github.com/HarikanKangbid/TouchDeviceManager.git", :tag => "0.0.6"}
+    s.source            = { :git => "https://github.com/HarikanKangbid/TouchDeviceManager.git", :tag => "0.0.7"}
     s.ios.deployment_target = '11.0'
-    s.vendored_frameworks = 'TouchDeviceManager.framework'
-    s.preserve_paths = 'TouchDeviceManager.framework'
+    s.vendored_frameworks = 'TouchDeviceManager.xcframework'
+    s.preserve_paths = 'TouchDeviceManager.xcframework'
     s.swift_version = '5'
 end

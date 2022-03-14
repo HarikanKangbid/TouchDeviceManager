@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TouchDeviceManager-Swift.h</key>
 		<data>
-		lzZ/ABbmhvNGdwW0PwXdfHWpu/E=
+		6txXRo8jxHNNcAilrzxLPG6NhIU=
 		</data>
 		<key>Headers/TouchDeviceManager.h</key>
 		<data>
@@ -14,55 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RPYMFVQDwqK/Dt2InQ+Cgel/3zE=
+		StR1JP7ZFNZRd7RXiarXf/5IoOk=
 		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		w9QYJaIm5DeL4iw3eAwemY+admc=
+		pmrj5QTbtDADFvRoDvi/F/G2AZg=
 		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7UGPCJj+uTNM/PX/0FE+KAesvGU=
+		A/2YkK/1dhp6KRO15pArHJ7mVJ8=
 		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6URu1XWZAL92bZPgpy4SRdrXmc4=
+		z41CmZHdhvgqEKV7Hn6iXorpmms=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		w9QYJaIm5DeL4iw3eAwemY+admc=
+		pmrj5QTbtDADFvRoDvi/F/G2AZg=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		7UGPCJj+uTNM/PX/0FE+KAesvGU=
+		A/2YkK/1dhp6KRO15pArHJ7mVJ8=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		6URu1XWZAL92bZPgpy4SRdrXmc4=
-		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		ji7eiMpLKFLBu3HRkdvWYaSkySQ=
-		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		LB0Uz0XuS7OY3zv3j1rLAH7z3BM=
-		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		jNRo6liOKv/3bMPKWoRzIxKjx+g=
-		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		ji7eiMpLKFLBu3HRkdvWYaSkySQ=
-		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		LB0Uz0XuS7OY3zv3j1rLAH7z3BM=
-		</data>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		jNRo6liOKv/3bMPKWoRzIxKjx+g=
+		z41CmZHdhvgqEKV7Hn6iXorpmms=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wlMTAgoq26koH3KvoPfiOS3JreyqxM4vbvh+G60zV/s=
+			BFglYuwUKMrAI9w0HH2T7ka4+TRdFWs9ZDBdJyF7Y8A=
 			</data>
 		</dict>
 		<key>Headers/TouchDeviceManager.h</key>
@@ -85,88 +61,46 @@
 			GqRz8rUxWBKYj7umQq/Lahhxiu29KoAyeZkc2a5Foos=
 			</data>
 		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CeEAY04O4bmkjFEi+mGL05HLLmmeejOdWPxMCMlXlig=
+			noxkYx0wOKS6v2l8/5TsfQE4lWSJ02dXI/5rAxqClbk=
 			</data>
 		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k316a25DrhdTESHFlt6tkSDLhlgpmBcgoMVskc12T48=
+			WfbUCL9GhC4D/30rVa/9pShu1enTagrSxu9k/7PtbUo=
 			</data>
 		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vd5qlg/qTuiOBtZZaO34N18OtPxsMUkHeExSxWwgsg0=
+			tByruBNmuj7g0CH5hwdsPDRcKFjyh8Rm+cmg2AzzENc=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CeEAY04O4bmkjFEi+mGL05HLLmmeejOdWPxMCMlXlig=
+			noxkYx0wOKS6v2l8/5TsfQE4lWSJ02dXI/5rAxqClbk=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k316a25DrhdTESHFlt6tkSDLhlgpmBcgoMVskc12T48=
+			WfbUCL9GhC4D/30rVa/9pShu1enTagrSxu9k/7PtbUo=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vd5qlg/qTuiOBtZZaO34N18OtPxsMUkHeExSxWwgsg0=
-			</data>
-		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BgRYe60JTJ3mGvUrywtwHxLfjqq8uVbzE4Dp+smIkig=
-			</data>
-		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pXP+UL7cJ6pmTtgVU3jha1qsT9UGR255pnS2TXBgvKI=
-			</data>
-		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7x9QM6BXJMRK0/oK3sONKAlPpRQBkTa/OnhtHYgj9O4=
-			</data>
-		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BgRYe60JTJ3mGvUrywtwHxLfjqq8uVbzE4Dp+smIkig=
-			</data>
-		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pXP+UL7cJ6pmTtgVU3jha1qsT9UGR255pnS2TXBgvKI=
-			</data>
-		</dict>
-		<key>Modules/TouchDeviceManager.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7x9QM6BXJMRK0/oK3sONKAlPpRQBkTa/OnhtHYgj9O4=
+			tByruBNmuj7g0CH5hwdsPDRcKFjyh8Rm+cmg2AzzENc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

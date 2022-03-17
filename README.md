@@ -26,13 +26,13 @@ Example Temperature Device
          print("stateLoading = \(stateLoading)")
      }
 
-     //return permission blutooth 
+     //return permission bluetooth 
      temperatureDevice.stateCentralManager = { [weak self] stateCentralManager in
          guard let s = self else { return }
          print("stateCentralManager = \(stateCentralManager)")
      }
         
-     //begin processs
+     //begin process
      temperatureDevice.startScan()
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -54,13 +54,13 @@ Example Oximeter Device
          print("stateLoading = \(stateLoading)")
      }
 
-     //return permission blutooth 
+     //return permission bluetooth 
      oximeterDevice.stateCentralManager = { [weak self] stateCentralManager in
          guard let s = self else { return }
          print("stateCentralManager = \(stateCentralManager)")
      }
         
-     //begin processs
+     //begin process
      oximeterDevice.startScan()
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -69,12 +69,12 @@ Example BloodPressure Device
 
      let bloodPressureDevice = BloodPressureTD3140Device()
      //return result   
-     //return Int .pluse 
+     //return Int .pulse 
      //return Int .dia 
      //return Int .sys 
      bloodPressureDevice.getResult = { [weak self] bloodPressure in
          guard let s = self else { return }
-         print("pluse = \(bloodPressure.pluse), dia = \(bloodPressure.dia), sys = \(bloodPressure.sys)")
+         print("pluse = \(bloodPressure.pulse), dia = \(bloodPressure.dia), sys = \(bloodPressure.sys)")
      }
 
      //return state loading 
@@ -83,13 +83,13 @@ Example BloodPressure Device
          print("stateLoading = \(stateLoading)")
      }
 
-     //return permission blutooth 
+     //return permission bluetooth 
      bloodPressureDevice.stateCentralManager = { [weak self] stateCentralManager in
          guard let s = self else { return }
          print("stateCentralManager = \(stateCentralManager)")
      }
         
-     //begin processs
+     //begin process
      bloodPressureDevice.startScan()
 
 
@@ -111,13 +111,13 @@ Example Glucose Device
          print("stateLoading = \(stateLoading)")
      }
 
-     //return permission blutooth 
+     //return permission bluetooth 
      glucoseDevice.stateCentralManager = { [weak self] stateCentralManager in
          guard let s = self else { return }
          print("stateCentralManager = \(stateCentralManager)")
      }
         
-     //begin processs
+     //begin process
      glucoseDevice.startScan()
 
 
@@ -140,11 +140,11 @@ Example ECG Device
          print("stateLoading = \(stateLoading)")
      }
 
-     //return permission blutooth 
+     //return permission bluetooth 
      ecgDevice.stateCentralManager = { [weak self] stateCentralManager in
          guard let s = self else { return }
          print("stateCentralManager = \(stateCentralManager)")
      }
         
-     //begin processs
+     //begin process
      ecgDevice.startScan()

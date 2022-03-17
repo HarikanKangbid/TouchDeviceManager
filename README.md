@@ -1,4 +1,14 @@
 # TouchDeviceManager
+use for get result from touch health chaeck devcie
+device list 
+- TemperatureTD1241
+- OximeterTD8255
+- BloodPressureTD3140
+- GlucoseTD4257
+- ECGTD4257
+
+
+
 
 Example Temperature Device
 

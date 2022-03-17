@@ -1,5 +1,5 @@
 # TouchDeviceManager
-use for get result from touch health chaeck devcie
+use for get result from touch health check devcie
 device list 
 - TemperatureTD1241
 - OximeterTD8255

@@ -6,8 +6,8 @@ import Foundation
 import Swift
 @_exported import TouchDeviceManager
 @objc @_inheritsConvenienceInitializers public class ECGTD4257Device : ObjectiveC.NSObject {
-  public typealias BaseValue = TouchDeviceManager.ECGInfo
-  public var getResult: ((TouchDeviceManager.ECGTD4257Device.BaseValue) -> ())?
+  public typealias DeviceValue = TouchDeviceManager.ECGInfo
+  public var getResult: ((TouchDeviceManager.ECGTD4257Device.DeviceValue) -> ())?
   public var didConnect: (() -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
@@ -35,8 +35,8 @@ public struct OximeterInfo {
   public let bpm: Swift.Int
 }
 @objc @_inheritsConvenienceInitializers public class BloodPressureTD3140Device : ObjectiveC.NSObject {
-  public typealias BaseValue = TouchDeviceManager.BloodPressureInfo
-  public var getResult: ((TouchDeviceManager.BloodPressureTD3140Device.BaseValue) -> ())?
+  public typealias DeviceValue = TouchDeviceManager.BloodPressureInfo
+  public var getResult: ((TouchDeviceManager.BloodPressureTD3140Device.DeviceValue) -> ())?
   public var didConnect: (() -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
@@ -57,8 +57,8 @@ extension BloodPressureTD3140Device : CoreBluetooth.CBPeripheralDelegate {
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
 }
 @objc @_inheritsConvenienceInitializers public class OximeterTD8255Device : ObjectiveC.NSObject {
-  public typealias BaseValue = TouchDeviceManager.OximeterInfo
-  public var getResult: ((TouchDeviceManager.OximeterTD8255Device.BaseValue) -> ())?
+  public typealias DeviceValue = TouchDeviceManager.OximeterInfo
+  public var getResult: ((TouchDeviceManager.OximeterTD8255Device.DeviceValue) -> ())?
   public var didConnect: (() -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
@@ -79,8 +79,8 @@ extension OximeterTD8255Device : CoreBluetooth.CBPeripheralDelegate {
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
 }
 @objc @_inheritsConvenienceInitializers public class TemperatureTD1241Device : ObjectiveC.NSObject {
-  public typealias BaseValue = TouchDeviceManager.TemperatureInfo
-  public var getResult: ((TouchDeviceManager.TemperatureTD1241Device.BaseValue) -> ())?
+  public typealias DeviceValue = TouchDeviceManager.TemperatureInfo
+  public var getResult: ((TouchDeviceManager.TemperatureTD1241Device.DeviceValue) -> ())?
   public var didConnect: (() -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
@@ -103,8 +103,8 @@ public struct TemperatureInfo {
   public let temperature: Swift.String
 }
 @objc @_inheritsConvenienceInitializers public class GlucoseTD4257Device : ObjectiveC.NSObject {
-  public typealias BaseValue = TouchDeviceManager.GlucoseInfo
-  public var getResult: ((TouchDeviceManager.GlucoseTD4257Device.BaseValue) -> ())?
+  public typealias DeviceValue = TouchDeviceManager.GlucoseInfo
+  public var getResult: ((TouchDeviceManager.GlucoseTD4257Device.DeviceValue) -> ())?
   public var didConnect: (() -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
@@ -134,7 +134,7 @@ public struct ECGInfo {
   public let pulse: Swift.String
 }
 public struct BloodPressureInfo {
-  public let pluse: Swift.Int
+  public let pulse: Swift.Int
   public let sys: Swift.Int
   public let dia: Swift.Int
 }

@@ -19,7 +19,7 @@ help to connect health check touch technologies device.
     s.author            = { "Harikan Kangbid" => "MIN.DO@hotmail.com" }
     s.source            = { :git => "https://github.com/HarikanKangbid/TouchDeviceManager.git", :tag => "0.0.11"}
     s.ios.deployment_target = '11.0'
-    s.vendored_frameworks = 'TouchDeviceManager.framework'
-    s.preserve_paths = 'TouchDeviceManager.framework'
+    s.vendored_frameworks = 'TouchDeviceManager.xcframework'
+    s.preserve_paths = 'TouchDeviceManager.xcframework'
     s.swift_version = '5'
 end

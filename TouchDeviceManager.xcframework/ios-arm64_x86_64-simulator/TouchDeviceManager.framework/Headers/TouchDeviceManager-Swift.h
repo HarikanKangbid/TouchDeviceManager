@@ -220,7 +220,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC18TouchDeviceManager25BloodPressureTD3140Device")
 @interface BloodPressureTD3140Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class CBCentralManager;
@@ -247,7 +248,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager25BloodPressureTD3140Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager15ECGTD4257Device")
 @interface ECGTD4257Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -268,7 +270,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager15ECGTD4257Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager19GlucoseTD4257Device")
 @interface GlucoseTD4257Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -289,7 +292,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager19GlucoseTD4257Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager30MultiMonitoringBeneCheckDevice")
 @interface MultiMonitoringBeneCheckDevice : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -310,7 +314,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager30MultiMonitoringBeneCheckDevice")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterADFB05Device")
 @interface OximeterADFB05Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -331,7 +336,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterADFB05Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterTD8255Device")
 @interface OximeterTD8255Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -352,7 +358,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterTD8255Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager23TemperatureAOJ20ADevice")
 @interface TemperatureAOJ20ADevice : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -373,7 +380,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager23TemperatureAOJ20ADevice")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager23TemperatureTD1241Device")
 @interface TemperatureTD1241Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -619,7 +627,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC18TouchDeviceManager25BloodPressureTD3140Device")
 @interface BloodPressureTD3140Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class CBCentralManager;
@@ -646,7 +655,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager25BloodPressureTD3140Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager15ECGTD4257Device")
 @interface ECGTD4257Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -667,7 +677,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager15ECGTD4257Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager19GlucoseTD4257Device")
 @interface GlucoseTD4257Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -688,7 +699,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager19GlucoseTD4257Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager30MultiMonitoringBeneCheckDevice")
 @interface MultiMonitoringBeneCheckDevice : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -709,7 +721,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager30MultiMonitoringBeneCheckDevice")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterADFB05Device")
 @interface OximeterADFB05Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -730,7 +743,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterADFB05Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterTD8255Device")
 @interface OximeterTD8255Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -751,7 +765,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager20OximeterTD8255Device")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager23TemperatureAOJ20ADevice")
 @interface TemperatureAOJ20ADevice : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -772,7 +787,8 @@ SWIFT_CLASS("_TtC18TouchDeviceManager23TemperatureAOJ20ADevice")
 
 SWIFT_CLASS("_TtC18TouchDeviceManager23TemperatureTD1241Device")
 @interface TemperatureTD1241Device : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

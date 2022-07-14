@@ -13,7 +13,7 @@ device list
 
 Example TemperatureTD1241Device
 
-     let temperatureDevice = TemperatureTD1241Device()
+     let temperatureDevice = TemperatureTD1241Device(autoResult: true)
      
      //return result   
      //return string .temperature 
@@ -63,7 +63,7 @@ Example TemperatureTD1241Device
 
 Example TemperatureAOJ20ADevice
 
-     let temperatureDevice = TemperatureAOJ20ADevice()
+     let temperatureDevice = TemperatureAOJ20ADevice(autoResult: true)
      
      //return result   
      //return string .temperature 
@@ -113,7 +113,7 @@ Example TemperatureAOJ20ADevice
 
 Example OximeterTD8255Device
 
-     let oximeterDevice = OximeterTD8255Device()
+     let oximeterDevice = OximeterTD8255Device(autoResult: true)
 
      //return result   
      //return Int .oxygen 
@@ -163,7 +163,7 @@ Example OximeterTD8255Device
 
 Example OximeterADFB05Device
 
-     let oximeterDevice = OximeterADFB05Device()
+     let oximeterDevice = OximeterADFB05Device(autoResult: true)
      
      //return result   
      //return Int .oxygen 
@@ -213,7 +213,7 @@ Example OximeterADFB05Device
 
 Example BloodPressureTD3140Device
 
-     let bloodPressureDevice = BloodPressureTD3140Device()
+     let bloodPressureDevice = BloodPressureTD3140Device(autoResult: true)
      
      //return result   
      //return Int .pulse 
@@ -265,7 +265,7 @@ Example BloodPressureTD3140Device
 
 Example GlucoseTD4257Device
  
-     let glucoseDevice = GlucoseTD4257Device()
+     let glucoseDevice = GlucoseTD4257Device(autoResult: true)
 
      //return result   
      //return Int .glucose 
@@ -309,7 +309,7 @@ Example GlucoseTD4257Device
 
 Example ECGTD4257Device
 
-     let ecgDevice = ECGTD4257Device()
+     let ecgDevice = ECGTD4257Device(autoResult: true)
 
      //return result   
      //return [Int] .graph
@@ -359,7 +359,7 @@ Example ECGTD4257Device
 
 Example MultiMonitoringBeneCheckDevice
 
-     let multiMonitoringBeneCheckDevice = MultiMonitoringBeneCheckDevice()
+     let multiMonitoringBeneCheckDevice = MultiMonitoringBeneCheckDevice(autoResult: true)
      
      //return result   
      //return Int .value

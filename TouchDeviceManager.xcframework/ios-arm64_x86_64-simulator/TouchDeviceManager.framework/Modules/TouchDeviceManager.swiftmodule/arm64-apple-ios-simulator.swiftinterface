@@ -126,6 +126,51 @@ extension TouchDeviceManager.BloodPressureTD3140Device : CoreBluetooth.CBPeriphe
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: Swift.Error?)
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
 }
+public enum BodyCompositionADFB885TDeviceHeader : Swift.String {
+  case header_00
+  case header_01
+  case header_41
+  case header_42
+  case header_81
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BodyCompositionADFB885TDeviceGender : Swift.Int {
+  case female
+  case male
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class BodyCompositionADFB885TDevice : ObjectiveC.NSObject {
+  public typealias BaseValue = TouchDeviceManager.BodyCompositionInfo
+  public var getResult: ((TouchDeviceManager.BodyCompositionADFB885TDevice.BaseValue) -> ())?
+  public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
+  public init(autoResult: Swift.Bool, height: Swift.Int, age: Swift.Int, gender: TouchDeviceManager.BodyCompositionADFB885TDeviceGender)
+  public func startScan()
+  public func stopScan()
+  public func disconnect()
+  public func requestResult()
+  @objc deinit
+}
+extension TouchDeviceManager.BodyCompositionADFB885TDevice : CoreBluetooth.CBCentralManagerDelegate {
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didConnect peripheral: CoreBluetooth.CBPeripheral)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDisconnectPeripheral peripheral: CoreBluetooth.CBPeripheral, error: Swift.Error?)
+}
+extension TouchDeviceManager.BodyCompositionADFB885TDevice : CoreBluetooth.CBPeripheralDelegate {
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverServices error: Swift.Error?)
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: Swift.Error?)
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
+}
 @objc public class OximeterTD8255Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.OximeterInfo
   public var getResult: ((TouchDeviceManager.OximeterTD8255Device.BaseValue) -> ())?
@@ -199,6 +244,14 @@ extension TouchDeviceManager.TemperatureTD1241Device : CoreBluetooth.CBPeriphera
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: Swift.Error?)
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
 }
+public struct BodyCompositionInfo {
+  public let weight: Swift.Double
+  public let fat: Swift.Double
+  public let bone: Swift.Double
+  public let water: Swift.Double
+  public let muscle: Swift.Double
+  public let bmi: Swift.Double
+}
 public struct TemperatureInfo {
   public let temperature: Swift.String
 }
@@ -252,5 +305,11 @@ public struct BloodPressureInfo {
 extension TouchDeviceManager.MultiMonitoringBeneCheckType : Swift.Equatable {}
 extension TouchDeviceManager.MultiMonitoringBeneCheckType : Swift.Hashable {}
 extension TouchDeviceManager.MultiMonitoringBeneCheckType : Swift.RawRepresentable {}
+extension TouchDeviceManager.BodyCompositionADFB885TDeviceHeader : Swift.Equatable {}
+extension TouchDeviceManager.BodyCompositionADFB885TDeviceHeader : Swift.Hashable {}
+extension TouchDeviceManager.BodyCompositionADFB885TDeviceHeader : Swift.RawRepresentable {}
+extension TouchDeviceManager.BodyCompositionADFB885TDeviceGender : Swift.Equatable {}
+extension TouchDeviceManager.BodyCompositionADFB885TDeviceGender : Swift.Hashable {}
+extension TouchDeviceManager.BodyCompositionADFB885TDeviceGender : Swift.RawRepresentable {}
 extension TouchDeviceManager.StateDeviceConnection : Swift.Equatable {}
 extension TouchDeviceManager.StateDeviceConnection : Swift.Hashable {}

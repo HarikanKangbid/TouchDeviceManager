@@ -110,7 +110,7 @@ public struct OximeterInfo {
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
-  public init(autoResult: Swift.Bool)
+  public init(autoResult: Swift.Bool, repeatResult: Swift.Bool)
   public func startScan()
   public func start()
   public func stopScan()

@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1gBdsDRqYTem8PglUfRgNNI9JZw=
+		bWvrW0rcz55nv84UkkZW265dzmQ=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+767E43b3gEkIJasgTadhvJe2UE=
+		QOe8k3B/ZxU6ZOvjEOtd1mPzgnk=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d4vjCkf15/0s7xM+FPSUDnheUcE=
+		2HKfHdKBlLzV5PQF1zCHIpeRPog=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wBk30tPbBfdp0RUCrDA3T5qFz/0=
+		WXhTajClut7G6lNDg14lpKuQHCg=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4ZPUgWCyVo96IVGB9n/oUNA9U80=
+		D3JKZsyJpZs7z1cEDYQqBI/B+xg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QXFiWIGHZ5Gu4QwD+hEkGub8a5ftaVtYMayfQRmA1GU=
+			dOy54nh24qzFlulv/YrUrXUZejLRbObB428HZeEZRY0=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LasPaA4EESOVV6wHmJjNGN290B6BFwy5wzH0cgwKoRk=
+			BD7Aiq84rKLEXbTiftXVsh1Hj3naR2i7VaXWv65pU6o=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5/+M56IcJV9eNL25S+T4A4SfEKD9V0CnSYW0SfeWwhE=
+			9Gq94y9GesLelBxdj71Zw5hpqQmOvzt48NsIC4xuwh0=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			blqUmVjrzCNa2j2VkfnejH4YkINPISpx6F66+9UwLCo=
+			9wJghWdmNVgWoC9c6qsX2ha2wbtHAfFraYXoQSNFD5A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

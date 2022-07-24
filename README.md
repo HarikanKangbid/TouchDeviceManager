@@ -213,7 +213,8 @@ Example OximeterADFB05Device
 
 Example BloodPressureTD3140Device
 
-     let bloodPressureDevice = BloodPressureTD3140Device(autoResult: true)
+     //repeatResult set for return result for finish
+     let bloodPressureDevice = BloodPressureTD3140Device(autoResult: true, repeatResult: false)
      
      //return result   
      //return Int .pulse 

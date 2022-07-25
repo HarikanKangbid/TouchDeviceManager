@@ -9,15 +9,14 @@ import UIKit
 import _Concurrency
 @objc public class ECGTD4257Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.ECGInfo
-  public var getResult: ((TouchDeviceManager.ECGTD4257Device.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.ECGTD4257Device.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool)
   public func startScan()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.ECGTD4257Device.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.ECGTD4257Device : CoreBluetooth.CBCentralManagerDelegate {
@@ -48,15 +47,14 @@ public enum MultiMonitoringBeneCheckType : Swift.Int {
 }
 @objc public class MultiMonitoringBeneCheckDevice : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.MultiMonitoringBeneCheckInfo
-  public var getResult: ((TouchDeviceManager.MultiMonitoringBeneCheckDevice.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.MultiMonitoringBeneCheckDevice.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool)
   public func startScan()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.MultiMonitoringBeneCheckDevice.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.MultiMonitoringBeneCheckDevice : CoreBluetooth.CBCentralManagerDelegate {
@@ -72,15 +70,15 @@ extension TouchDeviceManager.MultiMonitoringBeneCheckDevice : CoreBluetooth.CBPe
 }
 @objc public class OximeterADFB05Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.OximeterInfo
-  public var getResult: ((TouchDeviceManager.OximeterADFB05Device.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.OximeterInfo>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
-  public init(autoResult: Swift.Bool)
+  public init(autoResult: Swift.Bool, repeatResult: Swift.Bool)
   public func startScan()
+  public func startResult()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.OximeterADFB05Device.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.OximeterADFB05Device : CoreBluetooth.CBCentralManagerDelegate {
@@ -106,16 +104,15 @@ public struct OximeterInfo {
 }
 @objc public class BloodPressureTD3140Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.BloodPressureInfo
-  public var getResult: ((TouchDeviceManager.BloodPressureTD3140Device.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.BloodPressureTD3140Device.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool, repeatResult: Swift.Bool)
   public func startScan()
   public func start()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.BloodPressureTD3140Device.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.BloodPressureTD3140Device : CoreBluetooth.CBCentralManagerDelegate {
@@ -152,15 +149,14 @@ public enum BodyCompositionADFB885TDeviceGender : Swift.Int {
 }
 @objc public class BodyCompositionADFB885TDevice : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.BodyCompositionInfo
-  public var getResult: ((TouchDeviceManager.BodyCompositionADFB885TDevice.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.BodyCompositionADFB885TDevice.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool, height: Swift.Int, age: Swift.Int, gender: TouchDeviceManager.BodyCompositionADFB885TDeviceGender)
   public func startScan()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.BodyCompositionADFB885TDevice.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.BodyCompositionADFB885TDevice : CoreBluetooth.CBCentralManagerDelegate {
@@ -176,16 +172,15 @@ extension TouchDeviceManager.BodyCompositionADFB885TDevice : CoreBluetooth.CBPer
 }
 @objc public class OximeterTD8255Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.OximeterInfo
-  public var getResult: ((TouchDeviceManager.OximeterTD8255Device.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.OximeterTD8255Device.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool)
   public func startScan()
   public func requestPayload()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.OximeterTD8255Device.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.OximeterTD8255Device : CoreBluetooth.CBCentralManagerDelegate {
@@ -201,15 +196,14 @@ extension TouchDeviceManager.OximeterTD8255Device : CoreBluetooth.CBPeripheralDe
 }
 @objc public class TemperatureAOJ20ADevice : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.TemperatureInfo
-  public var getResult: ((TouchDeviceManager.TemperatureAOJ20ADevice.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.TemperatureAOJ20ADevice.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool)
   public func startScan()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.TemperatureAOJ20ADevice.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.TemperatureAOJ20ADevice : CoreBluetooth.CBCentralManagerDelegate {
@@ -225,15 +219,14 @@ extension TouchDeviceManager.TemperatureAOJ20ADevice : CoreBluetooth.CBPeriphera
 }
 @objc public class TemperatureTD1241Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.TemperatureInfo
-  public var getResult: ((TouchDeviceManager.TemperatureTD1241Device.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.TemperatureTD1241Device.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool)
   public func startScan()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.TemperatureTD1241Device.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.TemperatureTD1241Device : CoreBluetooth.CBCentralManagerDelegate {
@@ -262,15 +255,14 @@ public struct TemperatureInfo {
 }
 @objc public class GlucoseTD4257Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.GlucoseInfo
-  public var getResult: ((TouchDeviceManager.GlucoseTD4257Device.BaseValue) -> ())?
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
-  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.GlucoseTD4257Device.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
   public init(autoResult: Swift.Bool)
   public func startScan()
   public func stopScan()
   public func disconnect()
-  public func requestResult()
+  public func getResult() -> TouchDeviceManager.GlucoseTD4257Device.BaseValue?
   @objc deinit
 }
 extension TouchDeviceManager.GlucoseTD4257Device : CoreBluetooth.CBCentralManagerDelegate {
@@ -284,9 +276,9 @@ extension TouchDeviceManager.GlucoseTD4257Device : CoreBluetooth.CBPeripheralDel
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: Swift.Error?)
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
 }
-public enum StateDeviceLoading {
+public enum StateDeviceLoading<T> {
   case loading
-  case success
+  case success(result: T)
   case error(Swift.String)
 }
 public enum StateDeviceConnection {

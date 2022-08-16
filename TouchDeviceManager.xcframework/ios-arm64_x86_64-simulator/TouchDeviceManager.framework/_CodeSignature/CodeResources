@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mIsVJFaJ5UHhQaQv1zJvN6h7I18=
+		C1o2WqoYjY2uTVuf0UA6WytZmsE=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0PQm9t1DHlWfAJ3LsllRSvqU7Oo=
+		Gr7z90g8YIcRRIMoGKxUg7uaHGk=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		v2vh04RZbkW6cI6UovbwuieOzTs=
+		6+zyfVHhPx6xP9wXmAVo4rVhlzc=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xD9s7H9nmtCaoRLfawByFWT2GpU=
+		GWCwQ42Tu9ZwD6L+QRO+qua2MSQ=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uGyI/6KQL7nxERRnM3Gn9wmtdl8=
+		Jy2uMbxHeEWQGDNIhm7Y3grJT0s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+7eZhBmkb4DUnuiIK6TYkkkU3iwlHOy39MCVUZoX30=
+			S/4GfBpJE8Sy/gCqrd2csqX+T9asS8d0wjYMfcRDOuA=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ikZCe7Yt5dPyNGsAcbiQnIRbEmCZlXlX/o+3tGjZLXk=
+			N19Fel/af3eLLm1MJNEeBIgg5hH2UpU3pFT6uC2og1A=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hMBLyyH8f4aHwVpSQMQ7iILDdZQqeIE4QXuVeGlMz4A=
+			zQtSQ5ikt2Su+I7pPbSmW7rHvKhJ8oxocYT+DTbArvs=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZVZUmwjVkscpKwWHO5sK2rdLrtF7Bf69++bgDZ8cO8=
+			/5C7f6eJkVvAy49HHiRbGH3Uf6iUoLduOuODkKQnaQY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

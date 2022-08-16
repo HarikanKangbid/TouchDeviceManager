@@ -32,7 +32,7 @@ extension TouchDeviceManager.ECGTD4257Device : CoreBluetooth.CBPeripheralDelegat
 }
 public struct GlucoseInfo {
   public let glucose: Swift.Int
-  public init(glucose: Swift.Int)
+  public let uuid: Swift.String
 }
 public typealias ResultClosure<T> = ((T) -> ())
 public enum MultiMonitoringBeneCheckType : Swift.Int {
@@ -95,12 +95,12 @@ extension TouchDeviceManager.OximeterADFB05Device : CoreBluetooth.CBPeripheralDe
 public struct MultiMonitoringBeneCheckInfo {
   public let type: TouchDeviceManager.MultiMonitoringBeneCheckType
   public let value: Swift.Int
-  public init(type: TouchDeviceManager.MultiMonitoringBeneCheckType, value: Swift.Int)
+  public let uuid: Swift.String
 }
 public struct OximeterInfo {
   public let oxygen: Swift.Int
   public let bpm: Swift.Int
-  public init(oxygen: Swift.Int, bpm: Swift.Int)
+  public let uuid: Swift.String
 }
 @objc public class BloodPressureTD3140Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.BloodPressureInfo
@@ -247,11 +247,11 @@ public struct BodyCompositionInfo {
   public let water: Swift.Double
   public let muscle: Swift.Double
   public let bmi: Swift.Double
-  public init(weight: Swift.Double, fat: Swift.Double, bone: Swift.Double, water: Swift.Double, muscle: Swift.Double, bmi: Swift.Double)
+  public let uuid: Swift.String
 }
 public struct TemperatureInfo {
   public let temperature: Swift.String
-  public init(temperature: Swift.String)
+  public let uuid: Swift.String
 }
 @objc public class GlucoseTD4257Device : ObjectiveC.NSObject {
   public typealias BaseValue = TouchDeviceManager.GlucoseInfo
@@ -293,13 +293,13 @@ public enum StateDeviceConnection {
 public struct ECGInfo {
   public let graph: [Swift.Int]
   public let pulse: Swift.String
-  public init(graph: [Swift.Int], pulse: Swift.String)
+  public let uuid: Swift.String
 }
 public struct BloodPressureInfo {
   public let pluse: Swift.Int
   public let sys: Swift.Int
   public let dia: Swift.Int
-  public init(pluse: Swift.Int, sys: Swift.Int, dia: Swift.Int)
+  public let uuid: Swift.String
 }
 extension TouchDeviceManager.MultiMonitoringBeneCheckType : Swift.Equatable {}
 extension TouchDeviceManager.MultiMonitoringBeneCheckType : Swift.Hashable {}

@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YOxOhC993QpL2PQmqWMjgzRtByo=
+		AF2NkzscEe+Mz6DQWa/yd86pM0s=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fpFbWoxAYEytxxLGWhYtCMrL4xI=
+		lBu0QnAeDIL5GVbM2HGzbxIQkQI=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		K+BzHFgdyG0TdFOnIC1VIbIgeIE=
+		DFEsJU6nNLajcJW94HJuUHO0IW0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,14 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OAobAxE9bIlJIqRjhFv0ye+v5F73Uwl4bHIpoj+eceM=
+			Mqw44uzNVtpw2wep4TlV+ACME2/SyBGjvd5Ak+ZTk5k=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+N5gOtY4oHL9L6MHxdjc8xserpSsAJPGVIDjQA944v8=
+			2Gatdmfm96PoV4Gd+S7ihdXNVQmPWDKy1qK4k7r3V4M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

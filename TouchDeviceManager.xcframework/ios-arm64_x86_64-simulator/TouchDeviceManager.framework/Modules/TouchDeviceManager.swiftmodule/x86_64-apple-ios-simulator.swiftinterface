@@ -152,7 +152,7 @@ public enum BodyCompositionADFB885TDeviceGender : Swift.Int {
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.BodyCompositionADFB885TDevice.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
-  public init(autoResult: Swift.Bool, height: Swift.Int, age: Swift.Int, gender: TouchDeviceManager.BodyCompositionADFB885TDeviceGender)
+  public init(autoResult: Swift.Bool, height: Swift.Double, age: Swift.Int, gender: TouchDeviceManager.BodyCompositionADFB885TDeviceGender)
   public func startScan()
   public func stopScan()
   public func disconnect()
@@ -247,6 +247,9 @@ public struct BodyCompositionInfo {
   public let water: Swift.Double
   public let muscle: Swift.Double
   public let bmi: Swift.Double
+  public let height: Swift.Double
+  public let age: Swift.Int
+  public let gender: TouchDeviceManager.BodyCompositionADFB885TDeviceGender
   public let uuid: Swift.String
 }
 public struct TemperatureInfo {

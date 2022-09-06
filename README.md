@@ -15,22 +15,17 @@ Example TemperatureTD1241Device
 
      let temperatureDevice = TemperatureTD1241Device(autoResult: true)
      
-     //return result   
-     //return string .temperature 
-     temperatureDevice.getResult = { [weak self] temperature in
-         guard let s = self else { return }
-         print("temperature = \(temperature.temperature)")
-     }
-
      //return state loading 
+     //return string .temperature on .success
      temperatureDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let temperaturInfo):
                 print("loading success")
+                print("temperature = \(temperaturInfo.temperature)")
             case .error(let error):
                 print("error \(error)")
             }
@@ -64,23 +59,18 @@ Example TemperatureTD1241Device
 Example TemperatureAOJ20ADevice
 
      let temperatureDevice = TemperatureAOJ20ADevice(autoResult: true)
-     
-     //return result   
-     //return string .temperature 
-     temperatureDevice.getResult = { [weak self] temperature in
-         guard let s = self else { return }
-         print("temperature = \(temperature.temperature)")
-     }
-
+    
      //return state loading 
+     //return string .temperature on .success
      temperatureDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let temperaturInfo):
                 print("loading success")
+                print("temperature = \(temperaturInfo.temperature)")
             case .error(let error):
                 print("error \(error)")
             }
@@ -115,23 +105,18 @@ Example OximeterTD8255Device
 
      let oximeterDevice = OximeterTD8255Device(autoResult: true)
 
-     //return result   
-     //return Int .oxygen 
-     //return Int .bpm 
-     oximeterDevice.getResult = { [weak self] oximeter in
-         guard let s = self else { return }
-         print("oxygen = \(oximeter.oxygen), bpm = \(oximeter.bpm)")
-     }
-
      //return state loading 
+     //return Int .oxygen on .success
+     //return Int .bpm on .success
      oximeterDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let oximeterInfo):
                 print("loading success")
+                print("oxygen = \(oximeter.oxygen), bpm = \(oximeter.bpm)")
             case .error(let error):
                 print("error \(error)")
             }
@@ -165,23 +150,19 @@ Example OximeterADFB05Device
 
      let oximeterDevice = OximeterADFB05Device(autoResult: true)
      
-     //return result   
-     //return Int .oxygen 
-     //return Int .bpm 
-     oximeterDevice.getResult = { [weak self] oximeter in
-         guard let s = self else { return }
-         print("oxygen = \(oximeter.oxygen), bpm = \(oximeter.bpm)")
-     }
-
+ 
      //return state loading 
+     //return Int .oxygen on .success
+     //return Int .bpm on .success
      oximeterDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let oximeterInfo):
                 print("loading success")
+                print("oxygen = \(oximeter.oxygen), bpm = \(oximeter.bpm)")
             case .error(let error):
                 print("error \(error)")
             }
@@ -216,24 +197,19 @@ Example BloodPressureTD3140Device
      //repeatResult set for return result for finish
      let bloodPressureDevice = BloodPressureTD3140Device(autoResult: true, repeatResult: false)
      
-     //return result   
-     //return Int .pulse 
-     //return Int .dia 
-     //return Int .sys 
-     bloodPressureDevice.getResult = { [weak self] bloodPressure in
-         guard let s = self else { return }
-         print("pluse = \(bloodPressure.pulse), dia = \(bloodPressure.dia), sys = \(bloodPressure.sys)")
-     }
-
      //return state loading 
+     //return Int .pulse on .success
+     //return Int .dia on .success
+     //return Int .sys on .success
      bloodPressureDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let bloodPressureInfo):
                 print("loading success")
+                print("pluse = \(bloodPressure.pulse), dia = \(bloodPressure.dia), sys = \(bloodPressure.sys)")
             case .error(let error):
                 print("error \(error)")
             }
@@ -268,22 +244,17 @@ Example GlucoseTD4257Device
  
      let glucoseDevice = GlucoseTD4257Device(autoResult: true)
 
-     //return result   
-     //return Int .glucose 
-     glucoseDevice.getResult = { [weak self] glucose in
-         guard let s = self else { return }
-         print("glucose = \(glucose.glucose)")
-     }
-
      //return state loading 
+     //return Int .glucose 
      glucoseDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let glucoseInfo):
                 print("loading success")
+                print("glucose = \(glucose.glucose)")
             case .error(let error):
                 print("error \(error)")
             }
@@ -312,23 +283,18 @@ Example ECGTD4257Device
 
      let ecgDevice = ECGTD4257Device(autoResult: true)
 
-     //return result   
+     //return state loading 
      //return [Int] .graph
      //return String .pulse
-     ecgDevice.getResult = { [weak self] ecg in
-         guard let s = self else { return }
-         print("pulse = \(ecg.pulse)")
-     }
-
-     //return state loading 
      ecgDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let ecgInfo):
                 print("loading success")
+                print("pulse = \(ecg.pulse), graph = \(ecg.graph)")
             case .error(let error):
                 print("error \(error)")
             }
@@ -362,32 +328,28 @@ Example MultiMonitoringBeneCheckDevice
 
      let multiMonitoringBeneCheckDevice = MultiMonitoringBeneCheckDevice(autoResult: true)
      
-     //return result   
+     //return state loading 
      //return Int .value
      //return MultiMonitoringBeneCheckType .type
-      multiMonitoringBeneCheckDevice.getResult = { [weak self] multiMonitoringBeneCheck in
-            guard let s = self else { return }
-            s.labelValue.text = "\(multiMonitoringBeneCheck.value)"
-            
-            switch multiMonitoringBeneCheck.type {
-            case .glucose:
-                s.labelType.text = "Glucose"
-            case .cholesterol:
-                s.labelType.text = "Cholesterol"
-            case .uric:
-                s.labelType.text = "Uric"
-            }
-     }
-
-     //return state loading 
      multiMonitoringBeneCheckDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
     
             switch stateLoading {
             case .loading:
                 print("loading")
-            case .success:
+            case .success(let multiMonitoringBeneCheck):
                 print("loading success")
+                s.labelValue.text = "\(multiMonitoringBeneCheck.value)"
+
+                switch multiMonitoringBeneCheck.type {
+                    case .glucose:
+                s.labelType.text = "Glucose"
+                    case .cholesterol:
+                s.labelType.text = "Cholesterol"
+                    case .uric:
+                s.labelType.text = "Uric"
+            }
+
             case .error(let error):
                 print("error \(error)")
             }

@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XHyfnHRz1iEfmP9vBLvY4DivLEA=
+		LCo+QsHbEmPtxzFOswCIO/9Zpuo=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		I9vdRC+idA9uHAzWkRTIwBYybkM=
+		ibUjpoJIbwTpTg+pFwAN28lOB2c=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Gn8RSBdwz0uxQ7kCZl6sXqhuYXE=
+		C/W7lOgYY6vfJXh37rN8tSmrjC0=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bB+o3kpDS9Nd9fqXUGeciHlsKak=
+		2ng/26u7uOYXThgrgZRIJ29TTCg=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		enhsO2shWuyC9aFieNk5MO5o1eA=
+		WKf0hE4QIJlEOcFxPPy14ah4mYE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hsDTQcvReaW+xvcioLz4mGVeFtWWYU8MEAuev2newPY=
+			lhv5W2HcfR8t/n1P4BAN0GMrQ2gqBT0GXqIUIrFr3TQ=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AE9ZsbT7sS18d5jvvLanXFCrh4mTE2xb5B9GIKFEja8=
+			V5vKI3oZ48zzxaL1YB03c/aLejOO0nM4iV6uyKdKuSM=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MbDusMcZKmaHZ1xVbPjjhM7Ob6gIFu9kR9Asidw4vlM=
+			V4o32m9iHNQkns0hhbHTbsFuYbKSzW9+1IbcS533L5s=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSc2zCMLrtF8AcCaZLmC9whXZISiYm2EIA3/53KqxQw=
+			zLjGNuwO620idw2YD5UStEdhaImAiJIaCOoOEKHgpGs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -171,17 +171,18 @@ extension TouchDeviceManager.BodyCompositionADFB885TDevice : CoreBluetooth.CBPer
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
 }
 @objc public class OximeterTD8255Device : ObjectiveC.NSObject {
+  @objc deinit
   public typealias BaseValue = TouchDeviceManager.OximeterInfo
   public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
   public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.OximeterTD8255Device.BaseValue>) -> ())?
   public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
-  public init(autoResult: Swift.Bool)
+  public init(autoResult: Swift.Bool, repeatResult: Swift.Bool)
   public func startScan()
   public func requestPayload()
+  public func startResult()
   public func stopScan()
   public func disconnect()
   public func getResult() -> TouchDeviceManager.OximeterTD8255Device.BaseValue?
-  @objc deinit
 }
 extension TouchDeviceManager.OximeterTD8255Device : CoreBluetooth.CBCentralManagerDelegate {
   @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)

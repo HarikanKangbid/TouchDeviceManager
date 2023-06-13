@@ -6,6 +6,6 @@ framework module TouchDeviceManager {
 }
 
 module TouchDeviceManager.Swift {
-    header "TouchDeviceManager-Swift.h"
-    requires objc
+  header "TouchDeviceManager-Swift.h"
+  requires objc
 }

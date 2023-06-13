@@ -7,8 +7,10 @@ device list
 - OximeterADFB05
 - BloodPressureTD3140
 - GlucoseTD4257
+- GlucoseTGHGLC01
 - ECGTD4257
 - MultiMonitoringBeneCheck
+
 
 
 Example TemperatureTD1241Device
@@ -270,6 +272,45 @@ Example GlucoseTD4257Device
                 print("connected GlucoseTD4257Device")
             case .disconnect:
                 print("disconnect GlucoseTD4257Device")
+            }
+     }
+        
+     //begin process
+     glucoseDevice.startScan()
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Example GlucoseTGHGLC01
+ 
+     let glucoseDevice = GlucoseTGHGLC01Device(autoResult: true)
+
+     //return state loading 
+     //return Int .glucose 
+     glucoseDevice.stateLoading = { [weak self] stateLoading in
+            guard let s = self else { return }
+    
+            switch stateLoading {
+            case .loading:
+                print("loading")
+            case .success(let glucoseInfo):
+                print("loading success")
+                print("glucose = \(glucose.glucose)")
+            case .error(let error):
+                print("error \(error)")
+            }
+            
+     }
+
+     //return state connection 
+     glucoseDevice.stateConnection = { [weak self] stateConnection in
+            guard let s = self else { return }
+            
+            switch stateConnection {
+            case .connect:
+                print("connected GlucoseTGHGLC01Device")
+            case .disconnect:
+                print("disconnect GlucoseTGHGLC01Device")
             }
      }
         

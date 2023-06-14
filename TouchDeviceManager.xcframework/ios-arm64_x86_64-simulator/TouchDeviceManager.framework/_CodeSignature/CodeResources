@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TouchDeviceManager-Swift.h</key>
 		<data>
-		wJkKnNqRFvEzXSpl1aUvRDhfE64=
+		KWQ1M0DBZ4H+Gz6NSjXsvFtKb2Y=
 		</data>
 		<key>Headers/TouchDeviceManager.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		U0bYdos2VML/ga2vm/3hqv1nxqQ=
+		48WnikPVmEQUrodTRKNri0++KgQ=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IjGIIdr2h/Epy73f2Gict+T+k4Y=
+		DdPBKc+65loWxB/RNizUuni10j0=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IjGIIdr2h/Epy73f2Gict+T+k4Y=
+		DdPBKc+65loWxB/RNizUuni10j0=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vlVaEateWJP+LziGy9+a19aEopk=
+		vAWQqd+SzGN1CpOPKQgqXEmLuMk=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		U0bYdos2VML/ga2vm/3hqv1nxqQ=
+		48WnikPVmEQUrodTRKNri0++KgQ=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EjF5RGU4nL0lUKeVIDzhfgdatDU=
+		XwHQijbOfabzS2St5Ty/TB27bU8=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EjF5RGU4nL0lUKeVIDzhfgdatDU=
+		XwHQijbOfabzS2St5Ty/TB27bU8=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fKBaUeyZv4UtHhu6AnIvd2avL0w=
+		JqRz1I9uaGcHXoHEmTfpyiEqYbw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nbpsEfiIr0XXBjZGPL2qR58fyTJS0CLo+rnzIKux5ko=
+			pyI1IxSqfe6sntbkV7e4WI62hu3TZIiXV7tyCP+PW1E=
 			</data>
 		</dict>
 		<key>Headers/TouchDeviceManager.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzqngGibWMIOdZCKPABRRHhzxHn4z8jCGcUTLmHR4YY=
+			XCp+4wQb1kG3zUjh9Ac39UenCCFoencdagovdMeJACI=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bt8MVp4oftrlZcQD0/hSGHt1zyOFdKlyJ9gIGzlJckk=
+			FIbEes0PAjpA5YxT4a+v7OllC+G0qZw7Pg/DcKvAflE=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bt8MVp4oftrlZcQD0/hSGHt1zyOFdKlyJ9gIGzlJckk=
+			FIbEes0PAjpA5YxT4a+v7OllC+G0qZw7Pg/DcKvAflE=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QOXJIA+QkVhFD+dIEVQ/5mBCEl0ugUJsL5QM6Rl90Y8=
+			b9jCsdLL5IXDOnwWgxzy2cH1eeH09VWaPzctkIUt4K4=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzqngGibWMIOdZCKPABRRHhzxHn4z8jCGcUTLmHR4YY=
+			XCp+4wQb1kG3zUjh9Ac39UenCCFoencdagovdMeJACI=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TPTpJZvMoh/vWvozridCWDQZsV+4T2makZhaCrDbZ10=
+			w1iEgzOcFbhd2bNzRuJfW/X+4IE6RfDrZ8T5NR5hq1w=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TPTpJZvMoh/vWvozridCWDQZsV+4T2makZhaCrDbZ10=
+			w1iEgzOcFbhd2bNzRuJfW/X+4IE6RfDrZ8T5NR5hq1w=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lu+/RAdGyoTF6V0QFR8tKMS/WBM7PO30lOoAHSblkyo=
+			tvol1ASVp9sthSP2DnX7DFLJo7aXC/6bEjUvTNLv9L0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

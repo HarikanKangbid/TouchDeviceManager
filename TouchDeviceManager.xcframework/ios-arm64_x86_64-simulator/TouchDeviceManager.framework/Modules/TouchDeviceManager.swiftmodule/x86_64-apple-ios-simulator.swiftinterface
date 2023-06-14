@@ -99,6 +99,11 @@ public struct MultiMonitoringBeneCheckInfo {
   public let value: Swift.Int
   public let uuid: Swift.String
 }
+public struct BodyTapeInfo {
+  public let measure: Swift.Double
+  public let unit: TouchDeviceManager.BodyTapeUnitType
+  public let uuid: Swift.String
+}
 public struct OximeterInfo {
   public let oxygen: Swift.Int
   public let bpm: Swift.Int
@@ -216,6 +221,39 @@ extension TouchDeviceManager.OximeterTD8255Device : CoreBluetooth.CBCentralManag
   @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDisconnectPeripheral peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
 }
 extension TouchDeviceManager.OximeterTD8255Device : CoreBluetooth.CBPeripheralDelegate {
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverServices error: (any Swift.Error)?)
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: (any Swift.Error)?)
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: (any Swift.Error)?)
+}
+public enum BodyTapeUnitType : Swift.String {
+  case inch
+  case cm
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class BodyTapeDevice : ObjectiveC.NSObject {
+  public typealias BaseValue = TouchDeviceManager.BodyTapeInfo
+  public var stateConnection: ((TouchDeviceManager.StateDeviceConnection) -> ())?
+  public var stateLoading: ((TouchDeviceManager.StateDeviceLoading<TouchDeviceManager.BodyTapeDevice.BaseValue>) -> ())?
+  public var stateCentralManager: ((CoreBluetooth.CBManagerState) -> ())?
+  public init(autoResult: Swift.Bool)
+  public func startScan()
+  public func stopScan()
+  public func disconnect()
+  public func getResult() -> TouchDeviceManager.BodyTapeDevice.BaseValue?
+  @objc deinit
+}
+extension TouchDeviceManager.BodyTapeDevice : CoreBluetooth.CBCentralManagerDelegate {
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didConnect peripheral: CoreBluetooth.CBPeripheral)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDisconnectPeripheral peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
+}
+extension TouchDeviceManager.BodyTapeDevice : CoreBluetooth.CBPeripheralDelegate {
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverServices error: (any Swift.Error)?)
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: (any Swift.Error)?)
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: (any Swift.Error)?)
@@ -339,5 +377,8 @@ extension TouchDeviceManager.BodyCompositionADFB885TDeviceHeader : Swift.RawRepr
 extension TouchDeviceManager.BodyCompositionADFB885TDeviceGender : Swift.Equatable {}
 extension TouchDeviceManager.BodyCompositionADFB885TDeviceGender : Swift.Hashable {}
 extension TouchDeviceManager.BodyCompositionADFB885TDeviceGender : Swift.RawRepresentable {}
+extension TouchDeviceManager.BodyTapeUnitType : Swift.Equatable {}
+extension TouchDeviceManager.BodyTapeUnitType : Swift.Hashable {}
+extension TouchDeviceManager.BodyTapeUnitType : Swift.RawRepresentable {}
 extension TouchDeviceManager.StateDeviceConnection : Swift.Equatable {}
 extension TouchDeviceManager.StateDeviceConnection : Swift.Hashable {}

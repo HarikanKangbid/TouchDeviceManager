@@ -10,6 +10,7 @@ device list
 - GlucoseTGHGLC01
 - ECGTD4257
 - MultiMonitoringBeneCheck
+- BodyTape
 
 
 
@@ -363,7 +364,7 @@ Example ECGTD4257Device
      //begin process
      ecgDevice.startScan()
 
-     -----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 Example MultiMonitoringBeneCheckDevice
 
@@ -417,4 +418,47 @@ Example MultiMonitoringBeneCheckDevice
         
      //begin process
      multiMonitoringBeneCheckDevice.startScan()
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Example BodyTape
+ 
+     let bodyTapeDevice = BodyTapeDevice(autoResult: true)
+
+     //return state loading 
+     //return Double .measure
+     //return BodyTapeUnitType .unit
+
+     bodyTapeDevice.stateLoading = { [weak self] stateLoading in
+            guard let s = self else { return }
+    
+            switch stateLoading {
+            case .loading:
+                print("loading")
+            case .success(let bodyTapeInfo):
+                print("loading success")
+                print("measure = \(bodyTapeInfo.measure)")
+                print("unit = \(bodyTapeInfo.unit.rawvalue)") // "in" || "cm"
+            case .error(let error):
+                print("error \(error)")
+            }
+            
+     }
+
+     //return state connection 
+     bodyTapeDevice.stateConnection = { [weak self] stateConnection in
+            guard let s = self else { return }
+            
+            switch stateConnection {
+            case .connect:
+                print("connected BodyTapeDevice")
+            case .disconnect:
+                print("disconnect BodyTapeDevice")
+            }
+     }
+        
+     //begin process
+     bodyTapeDevice.startScan()
+
 

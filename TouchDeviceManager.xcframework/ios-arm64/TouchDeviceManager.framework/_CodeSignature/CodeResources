@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TouchDeviceManager-Swift.h</key>
 		<data>
-		Vo7xqALq+YPsVxORwQbG6Axw05g=
+		+Oxqgm4tc+Iifp1BFDbOI1YgkXI=
 		</data>
 		<key>Headers/TouchDeviceManager.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		U0bYdos2VML/ga2vm/3hqv1nxqQ=
+		48WnikPVmEQUrodTRKNri0++KgQ=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GCycV9+AaoTPrih5NIF5hWbSY7U=
+		nlziKaRPAKqigoWFw3Rs0yLOqFg=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GCycV9+AaoTPrih5NIF5hWbSY7U=
+		nlziKaRPAKqigoWFw3Rs0yLOqFg=
 		</data>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lv4EcyVWO57v6aA4zCJMI3HXpDY=
+		68QElqieYWg2Xlr4gRlwpV5foGc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dswJBzkB0pQ0RY0NroF5hvTfTSO1p5vMmENzKnPwSUo=
+			Aq8di4v9bta6D9imb7pxwKMI3WAnLT81BWAx34L2+b8=
 			</data>
 		</dict>
 		<key>Headers/TouchDeviceManager.h</key>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzqngGibWMIOdZCKPABRRHhzxHn4z8jCGcUTLmHR4YY=
+			XCp+4wQb1kG3zUjh9Ac39UenCCFoencdagovdMeJACI=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BwOyFh9CH1xdN/OeNZWaT+buis11TbGkbs2NnEleobM=
+			pHkSuSWQbGhbImowm1cyUq2XkeNqOx7zxoeioKJX0c8=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BwOyFh9CH1xdN/OeNZWaT+buis11TbGkbs2NnEleobM=
+			pHkSuSWQbGhbImowm1cyUq2XkeNqOx7zxoeioKJX0c8=
 			</data>
 		</dict>
 		<key>Modules/TouchDeviceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y71EbDoH+ryJSIC4LSqj2IBBgFbqVzxp3mJ9WPLxjmE=
+			qWbTIIDRRWrmvJhOqj2997I0y2tdvrMf3Rf2GpVPpSU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

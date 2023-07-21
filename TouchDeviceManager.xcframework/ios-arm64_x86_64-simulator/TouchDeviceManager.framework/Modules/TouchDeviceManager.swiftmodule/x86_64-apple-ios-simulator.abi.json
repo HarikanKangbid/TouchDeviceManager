@@ -17303,71 +17303,43 @@
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5378,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5400,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5523,
+      "offset": 5568,
       "length": 4,
       "value": "\"PM\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5595,
+      "offset": 5640,
       "length": 4,
       "value": "\"PM\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5610,
+      "offset": 5655,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 5618,
+      "offset": 5663,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5666,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5688,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 5820,
+      "offset": 5910,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5831,
+      "offset": 5921,
       "length": 2,
       "value": "\"\""
     },

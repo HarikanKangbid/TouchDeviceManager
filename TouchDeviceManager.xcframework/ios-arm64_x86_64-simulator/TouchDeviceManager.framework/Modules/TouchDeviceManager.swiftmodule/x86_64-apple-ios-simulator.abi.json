@@ -3694,6 +3694,50 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BodyTapeStateDevice",
+                "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18TouchDeviceManager12BodyTapeInfoV5stateAA0de5StateB0Ovp",
+            "mangledName": "$s18TouchDeviceManager12BodyTapeInfoV5stateAA0de5StateB0Ovp",
+            "moduleName": "TouchDeviceManager",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BodyTapeStateDevice",
+                    "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                    "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18TouchDeviceManager12BodyTapeInfoV5stateAA0de5StateB0Ovg",
+                "mangledName": "$s18TouchDeviceManager12BodyTapeInfoV5stateAA0de5StateB0Ovg",
+                "moduleName": "TouchDeviceManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -8714,6 +8758,206 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BodyTapeStateDevice",
+        "printedName": "BodyTapeStateDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "normal",
+            "printedName": "normal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TouchDeviceManager.BodyTapeStateDevice.Type) -> TouchDeviceManager.BodyTapeStateDevice",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BodyTapeStateDevice",
+                    "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                    "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TouchDeviceManager.BodyTapeStateDevice.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BodyTapeStateDevice",
+                        "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                        "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18TouchDeviceManager013BodyTapeStateB0O6normalyA2CmF",
+            "mangledName": "$s18TouchDeviceManager013BodyTapeStateB0O6normalyA2CmF",
+            "moduleName": "TouchDeviceManager"
+          },
+          {
+            "kind": "Var",
+            "name": "save",
+            "printedName": "save",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TouchDeviceManager.BodyTapeStateDevice.Type) -> TouchDeviceManager.BodyTapeStateDevice",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BodyTapeStateDevice",
+                    "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                    "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TouchDeviceManager.BodyTapeStateDevice.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BodyTapeStateDevice",
+                        "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                        "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18TouchDeviceManager013BodyTapeStateB0O4saveyA2CmF",
+            "mangledName": "$s18TouchDeviceManager013BodyTapeStateB0O4saveyA2CmF",
+            "moduleName": "TouchDeviceManager"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BodyTapeStateDevice",
+                "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BodyTapeStateDevice",
+                "printedName": "TouchDeviceManager.BodyTapeStateDevice",
+                "usr": "s:18TouchDeviceManager013BodyTapeStateB0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18TouchDeviceManager013BodyTapeStateB0O2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18TouchDeviceManager013BodyTapeStateB0O2eeoiySbAC_ACtFZ",
+            "moduleName": "TouchDeviceManager",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18TouchDeviceManager013BodyTapeStateB0O9hashValueSivp",
+            "mangledName": "$s18TouchDeviceManager013BodyTapeStateB0O9hashValueSivp",
+            "moduleName": "TouchDeviceManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18TouchDeviceManager013BodyTapeStateB0O9hashValueSivg",
+                "mangledName": "$s18TouchDeviceManager013BodyTapeStateB0O9hashValueSivg",
+                "moduleName": "TouchDeviceManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18TouchDeviceManager013BodyTapeStateB0O4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18TouchDeviceManager013BodyTapeStateB0O4hash4intoys6HasherVz_tF",
+            "moduleName": "TouchDeviceManager",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18TouchDeviceManager013BodyTapeStateB0O",
+        "mangledName": "$s18TouchDeviceManager013BodyTapeStateB0O",
+        "moduleName": "TouchDeviceManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -17178,168 +17422,182 @@
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 493,
+      "offset": 560,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 705,
       "length": 38,
       "value": "\"0783B03E-8535-B5A0-7140-A304D2495CB7\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 799,
       "length": 38,
       "value": "\"0783B03E-8535-B5A0-7140-A304D2495CB8\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 801,
+      "offset": 868,
       "length": 13,
       "value": "\"Health-tape\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 1778,
+      "offset": 1845,
       "length": 24,
       "value": "\"BodyTapeInfo not found\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 242,
+      "offset": 309,
       "length": 14,
       "value": "\"TouchDeviceManager.BodyTapeDevice\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 2219,
+      "offset": 2286,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 2619,
+      "offset": 2686,
       "length": 12,
       "value": "\"didConnect\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 2879,
+      "offset": 2946,
       "length": 25,
       "value": "\"didDisconnectPeripheral\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3944,
+      "offset": 4011,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 4326,
+      "offset": 4393,
       "length": 24,
       "value": "\"BodyTapeInfo not found\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 4516,
+      "offset": 4583,
       "length": 24,
       "value": "\"BodyTapeInfo not found\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 4794,
+      "offset": 4861,
       "length": 24,
       "value": "\"BodyTapeInfo not found\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 4940,
+      "offset": 5007,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5235,
+      "offset": 5302,
       "length": 4,
       "value": "\"PI\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5307,
+      "offset": 5374,
       "length": 4,
       "value": "\"PI\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5322,
+      "offset": 5389,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 5330,
+      "offset": 5397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5581,
+      "offset": 5476,
+      "length": 4,
+      "value": "\"SI\""
+    },
+    {
+      "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5697,
       "length": 4,
       "value": "\"PM\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5653,
+      "offset": 5769,
       "length": 4,
       "value": "\"PM\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5668,
+      "offset": 5784,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 5676,
+      "offset": 5792,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5871,
+      "length": 4,
+      "value": "\"SM\""
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 5936,
+      "offset": 6098,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/harikankangbid\/Desktop\/DeviceManager\/TouchDeviceManager\/BodyTapeDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5947,
+      "offset": 6109,
       "length": 2,
       "value": "\"\""
     },

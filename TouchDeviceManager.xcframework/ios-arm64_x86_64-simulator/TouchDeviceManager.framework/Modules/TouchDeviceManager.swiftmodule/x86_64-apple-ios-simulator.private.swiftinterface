@@ -103,6 +103,7 @@ public struct BodyTapeInfo {
   public let measure: Swift.Double
   public let unit: TouchDeviceManager.BodyTapeUnitType
   public let uuid: Swift.String
+  public let state: TouchDeviceManager.BodyTapeStateDevice
 }
 public struct OximeterInfo {
   public let oxygen: Swift.Int
@@ -232,6 +233,15 @@ public enum BodyTapeUnitType : Swift.String {
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BodyTapeStateDevice {
+  case normal
+  case save
+  public static func == (a: TouchDeviceManager.BodyTapeStateDevice, b: TouchDeviceManager.BodyTapeStateDevice) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -380,5 +390,7 @@ extension TouchDeviceManager.BodyCompositionADFB885TDeviceGender : Swift.RawRepr
 extension TouchDeviceManager.BodyTapeUnitType : Swift.Equatable {}
 extension TouchDeviceManager.BodyTapeUnitType : Swift.Hashable {}
 extension TouchDeviceManager.BodyTapeUnitType : Swift.RawRepresentable {}
+extension TouchDeviceManager.BodyTapeStateDevice : Swift.Equatable {}
+extension TouchDeviceManager.BodyTapeStateDevice : Swift.Hashable {}
 extension TouchDeviceManager.StateDeviceConnection : Swift.Equatable {}
 extension TouchDeviceManager.StateDeviceConnection : Swift.Hashable {}

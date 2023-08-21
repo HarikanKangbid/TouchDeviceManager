@@ -429,6 +429,7 @@ Example BodyTape
      //return state loading 
      //return Double .measure
      //return BodyTapeUnitType .unit
+     //return BodyTapeStateDevice .state
 
      bodyTapeDevice.stateLoading = { [weak self] stateLoading in
             guard let s = self else { return }
@@ -440,6 +441,7 @@ Example BodyTape
                 print("loading success")
                 print("measure = \(bodyTapeInfo.measure)")
                 print("unit = \(bodyTapeInfo.unit.rawvalue)") // "in" || "cm"
+                print("state = \(bodyTapeInfo.state)") // "normal" || "save"
             case .error(let error):
                 print("error \(error)")
             }
